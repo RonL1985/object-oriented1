@@ -5,7 +5,7 @@
 /**
  * Small Cross Section of a author
  *
- * This profile can be considered a small example of what services like GameStop store when profiles are used in GameStop. This can easily be extended to emulate more feature of GameStop.
+ * This author can be considered a small example of what services like GameStop store when author are used in GameStop. This can easily be extended to emulate more feature of GameStop.
  *
  * @author Chelsea David <cryan17@cnm.edu
  * @version 1
@@ -41,7 +41,7 @@ class author {
 	 * @throws TypeError
 	 **/
 
-	public function __construct(string $newProfileId,string $newProfileLocation, string $newProfileNickname,string $newProfileEmail) {
+	public function __construct(string $newAuthorId,string $newAuthorAvatarUrl, string $newAuthorActivationToken,string $newAuthorEmail) {
 		try {
 			$this->setauthorId($newAuthorId);
 			$this->setAuthorAvatarUrl($newAuthorAvatarUrl);
@@ -53,9 +53,9 @@ class author {
 			throw (new $exceptionType($exception->getMessage(), 0, $exception)) ;
 		}
 	}
-	/** accessor method for profile id
+	/** accessor method for author id
 	 *
-	 * @return Uuid value of profile id
+	 * @return Uuid value of author id
 	 *
 	 **/
 	public function getAuthorId() : Uuid {
@@ -75,7 +75,7 @@ class author {
 			$exceptionType = get_class($exception);
 			throw(new $exceptionType($exception->getMessage(), 0, $exception));
 		}
-		// convert and store the profile id
+		// convert and store the author id
 		$this->authorId = $Uuid;
 	}
 
@@ -101,6 +101,6 @@ class author {
 			$exceptionType = get_class($exception);
 			throw(new $exceptionType($exception->getMessage(),0,$exception));
 		}
-		// convert and store the profile id
+		// convert and store the author id
 		$this-> authorAvatarUrl = $string;
 	}
