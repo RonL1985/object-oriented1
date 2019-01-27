@@ -15,7 +15,7 @@ spl_autoload_register(function($class) {
 	 * prefix: the prefix for all the classes (i.e., the namespace)
 	 * baseDir: the base directory for all classes (default = current directory)
 	 **/
-	$prefix = "rluna41\\Object-Oriented1";
+	$prefix = "RonL1985\\Object-Oriented1";
 	$baseDir = __DIR__;
 
 	// does the class use the namespace prefix?
