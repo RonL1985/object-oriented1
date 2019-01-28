@@ -30,7 +30,7 @@ $snape = new author(
 	"babababababababababababababababa",
 	"professorSnape@gmail.com",
 	"babababababababababababababababababababababababababababababababababababababababababababababababa",
-	"SirArthur"
+	"ProfessorSnape"
 );
 //insert($snape);
 
