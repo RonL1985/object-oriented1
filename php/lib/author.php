@@ -10,54 +10,54 @@ require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 
 
 /*
-simplified attribute names:
-	authorId
-	authorAvatarUrl
-	authorActivationToken
-	authorEmail
-	authorHash
-	authorUsername
-*/
-/**
- * New Author Generator
- *
- * A new instance of the Author class with all of the attributes the database requires.
- *
- */
-$snape = new author(
-	generateUuidV4(),
-	"www.Hogwarts.com/",
-	"babababababababababababababababa",
-	"professorSnape@gmail.com",
-	"dsjflsjfheihgeukhfisnfsldhflkggsldfgehskdhgnsgukhsldhfkshglhseiugfsbdlkfahlfehldkjvhhgsjunslnjpodjw;jghgsknfnvslkng",
-	"ProfessorSnape"
+	simplified attribute names:
+		authorId
+		authorAvatarUrl
+		authorActivationToken
+		authorEmail
+		authorHash
+		authorUsername
+	*/
+	/**
+ 	* New Author Generator
+ 	*
+ 	* A new instance of the Author class with all of the attributes the database requires.
+ 	*
+ 	*/
+	$snape = new author(
+		generateUuidV4(),
+		"www.Hogwarts.com/",
+		"babababababababababababababababa",
+		"professorSnape@gmail.com",
+		"dsjflsjfheihgeukhfisnfsldhflkggsldfgehskdhgnsgukhsldhfkshglhseiugfsbdlkfahlfehldkjvhhgsjunslnjpodjw;jghgsknfnvslkng",
+		"ProfessorSnape"
 );
-//insert($snape);
+	//insert($snape);
 
-var_dump($snape);
+	var_dump($snape);
 
 
-$spell = new author(
-	generateUuidV4(),
-	"www.spellcasting.com/",
-	"hahahahahahahahahahahahahahahaha",
-	"CastSpell@gmail.com",
-	"jgeuhfvkkld;sljdjfiln;ledjavgtte74y4839y4ihtysih9405iowiehflksjguflwjdoilhw;ueotsigdihgw;sgiswohgoheifj",
-	"BadSpell"
+	$spell = new author(
+		generateUuidV4(),
+		"www.spellcasting.com/",
+		"hahahahahahahahahahahahahahahaha",
+		"CastSpell@gmail.com",
+		"jgeuhfvkkld;sljdjfiln;ledjavgtte74y4839y4ihtysih9405iowiehflksjguflwjdoilhw;ueotsigdihgw;sgiswohgoheifj",
+		"BadSpell"
 );
-//insert($spell);
+	//insert($spell);
 
-var_dump($spell);
+	var_dump($spell);
 
 
-$rock = new author(
-	generateUuidV4(),
-	"www.hardrock.com/",
-	"rockrockrockrockrockrockrockrockrockrockrockrockrockrockrockrock",
-	"professorSnape@gmail.com",
-	"aherihyh3230u4204082-0903902ty8hwgherghwihefiufhikhsoihg049-058309uoiejgslhgoidhslvkbklsdjlsjfghel;kshg;knkhdkfn",
-	"DwayneTheRockJohnson"
+	$rock = new author(
+		generateUuidV4(),
+		"www.hardrock.com/",
+		"rockrockrockrockrockrockrockrockrockrockrockrockrockrockrockrock",
+		"professorSnape@gmail.com",
+		"aherihyh3230u4204082-0903902ty8hwgherghwihefiufhikhsoihg049-058309uoiejgslhgoidhslvkbklsdjlsjfghel;kshg;knkhdkfn",
+		"DwayneTheRockJohnson"
 );
-//insert($rock);
+	//insert($rock);
 
-var_dump($rock);
+	var_dump($rock);
