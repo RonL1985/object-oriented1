@@ -55,7 +55,7 @@ $rock = new author(
 	"www.hardrock.com/",
 	"rockrockrockrockrockrockrockrockrockrockrockrockrockrockrockrock",
 	"WhatsTheRockCooking@gmail.com",
-	"aherihyh3230u4204082-0903902ty8hwgherghwihefiufhikhsoihg049-\058309uoiejgslhgoidhslvkbklsdjlsjfghelkshgknkhdkfn",
+	"aherihyh3230u4204082-0903902ty8hwgherghwihefiufhikhsoihg049058309uoiejgslhgoidhslvkbklsdjlsjfghelkshgknkhdkfn",
 	"DwayneTheRockJohnson"
 );
 //insert($rock);
