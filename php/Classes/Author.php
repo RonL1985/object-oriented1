@@ -94,7 +94,7 @@ class author {
 	 * @throws \ InvalidArgumentException if $newAuthorAvatarUrl is not a string or insecure
 	 * @throws \TypeError if @newAuthorAvatarUrl is not an string
 	 **/
-	public function setAuthorAvatarUrln( $newAuthorAvatarUrl) : void {
+	public function setAuthorAvatarUrl( $newAuthorAvatarUrl) : void {
 		try {
 			$string = self::validateString($newAuthorAvatarUrl);
 		} catch(\InvalidArgumentException | \Exception | \TypeError $exception) {
