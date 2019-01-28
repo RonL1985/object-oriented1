@@ -42,7 +42,7 @@ $spell = new author(
 	"www.spellcasting.com/",
 	"hahahahahahahahahahahahahahahaha",
 	"CastSpell@gmail.com",
-	"jgeuhfvkkld;sljdjfilnledjavgtte74y4839y4ihtysih9405iowiehflksjguflwjdoilhwueotsigdihgwsgiswohgoheifj",
+	"jgeuhfvkkldsljdjfilnledjavgtte74y4839y4ihtysih9405iowiehflksjguflwjdoilhwueotsigdihgwsgiswohgoheifj",
 	"BadSpell"
 );
 //insert($spell);
@@ -55,7 +55,7 @@ $rock = new author(
 	"www.hardrock.com/",
 	"rockrockrockrockrockrockrockrockrockrockrockrockrockrockrockrock",
 	"WhatsTheRockCooking@gmail.com",
-	"aherihyh3230u4204082-0903902ty8hwgherghwihefiufhikhsoihg049058309uoiejgslhgoidhslvkbklsdjlsjfghelkshgknkhdkfn",
+	"aherihyh3230u42040820903902ty8hwgherghwihefiufhikhsoihg049058309uoiejgslhgoidhslvkbklsdjlsjfghelkshgknkhdkfn",
 	"DwayneTheRockJohnson"
 );
 //insert($rock);
