@@ -54,7 +54,7 @@ $rock = new author(
 	generateUuidV4(),
 	"www.hardrock.com/",
 	"rockrockrockrockrockrockrockrockrockrockrockrockrockrockrockrock",
-	"professorSnape@gmail.com",
+	"WhatsTheRockCooking@gmail.com",
 	"aherihyh3230u4204082-0903902ty8hwgherghwihefiufhikhsoihg049-058309uoiejgslhgoidhslvkbklsdjlsjfghel;kshg;knkhdkfn",
 	"DwayneTheRockJohnson"
 );
