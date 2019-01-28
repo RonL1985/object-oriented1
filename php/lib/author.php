@@ -1,28 +1,37 @@
 <?php
-use author\authorId\{authorAvatarUrl\authorActivationToken\authorEmail\authorUsername};
+namespace RonL1985\ObjectOriented;
+
+require_once("../Classes/author.php");
+require_once("../Classes/autoload.php");
+//	require_once("../classes/autoload.php");
+//	require_once(dirname(__DIR__, 1) . "/classes/Author.php");
+// use autoload via composer (PHP's package manager:
+require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 
 
-//grab the class we want to take a look at
+/*
+simplified attribute names:
+	authorId
+	authorAvatarUrl
+	authorActivationToken
+	authorEmail
+	authorHash
+	authorUsername
+*/
+/**
+ * New Author Generator
+ *
+ * A new instance of the Author class with all of the attributes the database requires.
+ *
+ */
+$snape = new author(
+	"generateUuidV4",
+	"www.Hogwarts.com/1",
+	"babababababababababababababababa",
+	"professorSnape@gmail.com",
+	"babababababababababababababababababababababababababababababababababababababababababababababababa",
+	"SirArthur"
+);
+//insert($snape);
 
-require_once(dirname(__DIR__) . "/classes/autoload.php");
-require_once("uuid.php");
-
-require_once("uuid.php");
-$pdo = connectToEncryptedMySQL("/etc/apache2/github.com/RonL1985/object-oriented1");
-
-
-$author = new authorAvatarUrl(generateUuidV4(), "http://www.fakethings.com/", "http://www.RonLunathegamer.com/");
-$author->insert($pdo);
-echo "first author";
-
-$author = new authorActivationToken(generateUuidV4(), "worldWideWeb", "internet");
-$author->insert($pdo);
-echo "second author";
-
-$author = new authorEmail(generateUuidV4(), "ronaldluna1@gmail.com", "http://google.com/");
-$author->insert($pdo);
-echo "third author";
-
-$author = new authorUsername(generateUuidV4(), "RonL1985", "github.com");
-$author->insert($pdo);
-echo "fourth author";
+var_dump($snape);
