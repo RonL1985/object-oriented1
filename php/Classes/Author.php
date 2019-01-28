@@ -33,7 +33,6 @@ class author {
 	 * @var string $authorUsername
 	 **/
 	private $authorUsername;
-	/**
 
 	/**
 	 * @param Uuid $newauthorId
@@ -53,7 +52,7 @@ class author {
 			$this->setAuthorAvatarUrl($newAuthorAvatarUrl);
 			$this->setAuthorActivationToken($newAuthorActivationToken);
 			$this->setAuthorEmail($newAuthorEmail);
-			$this->setAuthorUsername($newAuthorUsername)
+			$this->setAuthorUsername($newAuthorUsername);
 
 		} catch(\InvalidArgumentException | \RangeException | \Exception | \TypeError $exception) {
 			$exceptionType = get_class($exception);
