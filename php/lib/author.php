@@ -8,7 +8,7 @@ require_once(dirname(__DIR__) . "/classes/autoload.php");
 require_once("uuid.php");
 
 require_once("uuid.php");
-$pdo = connectToEncryptedMySQL("/etc/apache2/object-oriented1/github.com/RonL1985/object-oriented1");
+$pdo = connectToEncryptedMySQL("/etc/apache2/github.com/RonL1985/object-oriented1");
 
 
 $author = new authorAvatarUrl(generateUuidV4(), "http://www.fakethings.com/", "http://www.RonLunathegamer.com/");
