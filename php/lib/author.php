@@ -29,7 +29,7 @@ $snape = new author(
 	"www.Hogwarts.com/",
 	"babababababababababababababababa",
 	"professorSnape@gmail.com",
-	"dsjflsjfheihgeukhfisnfsldhflkggsldfgehskdhgnsgukhsldhfkshglhseiugfsbdlkfahlfehldkjvhhgsjunslnjpodjw;jghgsknfnvslkng",
+	"dsjflsjfheihgeukhfisnfsldhflkggsldfgehskdhgnsgukhsldhfkshglhseiugfsbdlkfahlfehldkjvhhgsjunslnjpodjwjghgsknfnvslkng",
 	"ProfessorSnape"
 );
 //insert($snape);
@@ -42,7 +42,7 @@ $spell = new author(
 	"www.spellcasting.com/",
 	"hahahahahahahahahahahahahahahaha",
 	"CastSpell@gmail.com",
-	"jgeuhfvkkld;sljdjfiln;ledjavgtte74y4839y4ihtysih9405iowiehflksjguflwjdoilhw;ueotsigdihgw;sgiswohgoheifj",
+	"jgeuhfvkkld;sljdjfilnledjavgtte74y4839y4ihtysih9405iowiehflksjguflwjdoilhwueotsigdihgwsgiswohgoheifj",
 	"BadSpell"
 );
 //insert($spell);
@@ -55,7 +55,7 @@ $rock = new author(
 	"www.hardrock.com/",
 	"rockrockrockrockrockrockrockrockrockrockrockrockrockrockrockrock",
 	"WhatsTheRockCooking@gmail.com",
-	"aherihyh3230u4204082-0903902ty8hwgherghwihefiufhikhsoihg049-058309uoiejgslhgoidhslvkbklsdjlsjfghel;kshg;knkhdkfn",
+	"aherihyh3230u4204082-0903902ty8hwgherghwihefiufhikhsoihg049-\058309uoiejgslhgoidhslvkbklsdjlsjfghelkshgknkhdkfn",
 	"DwayneTheRockJohnson"
 );
 //insert($rock);
