@@ -1,12 +1,12 @@
 <?php
-namespace RonL1985\object-oriented1;
+	namespace RonL1985\object-oriented1;
 
-require_once("../Classes/Author.php");
-require_once("../Classes/autoload.php");
-//	require_once("../classes/autoload.php");
-//	require_once(dirname(__DIR__, 1) . "/classes/Author.php");
-// use autoload via composer (PHP's package manager:
-require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
+	require_once("../Classes/Author.php");
+	require_once("../Classes/autoload.php");
+		//	require_once("../classes/autoload.php");
+		//	require_once(dirname(__DIR__, 1) . "/classes/Author.php");
+		// use autoload via composer (PHP's package manager:
+	require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 
 
 /*
