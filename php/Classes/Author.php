@@ -34,17 +34,14 @@ class author {
 	 **/
 	private $authorUsername;
 	/**
-	 * Username linked to this author,
-	 * @var string $authorUsername
-	 **/
-	private $authorUsername;
+
 
 	/**
 	 * @param Uuid $newauthorId
 	 * @param $newAuthorAvatarUrl
 	 * @param $newAuthorActivationToken
 	 * @param $newAuthorEmail
-	 * @param $authorUsername
+	 * @param $newauthorUsername
 	 * @throws InvalidArgumentException
 	 * @throws RangeException
 	 * @throws Exception
