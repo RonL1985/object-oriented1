@@ -1,7 +1,7 @@
 <?php
-namespace RonL1985\ObjectOriented;
+namespace RonL1985\object-oriented1;
 
-require_once("../Classes/author.php");
+require_once("../Classes/Author.php");
 require_once("../Classes/autoload.php");
 //	require_once("../classes/autoload.php");
 //	require_once(dirname(__DIR__, 1) . "/classes/Author.php");
@@ -25,13 +25,39 @@ simplified attribute names:
  *
  */
 $snape = new author(
-	"generateUuidV4",
-	"www.Hogwarts.com/1",
+	generateUuidV4(),
+	"www.Hogwarts.com/",
 	"babababababababababababababababa",
 	"professorSnape@gmail.com",
-	"babababababababababababababababababababababababababababababababababababababababababababababababa",
+	"dsjflsjfheihgeukhfisnfsldhflkggsldfgehskdhgnsgukhsldhfkshglhseiugfsbdlkfahlfehldkjvhhgsjunslnjpodjw;jghgsknfnvslkng",
 	"ProfessorSnape"
 );
 //insert($snape);
 
 var_dump($snape);
+
+
+$spell = new author(
+	generateUuidV4(),
+	"www.spellcasting.com/",
+	"hahahahahahahahahahahahahahahaha",
+	"CastSpell@gmail.com",
+	"jgeuhfvkkld;sljdjfiln;ledjavgtte74y4839y4ihtysih9405iowiehflksjguflwjdoilhw;ueotsigdihgw;sgiswohgoheifj",
+	"BadSpell"
+);
+//insert($spell);
+
+var_dump($spell);
+
+
+$rock = new author(
+	generateUuidV4(),
+	"www.hardrock.com/",
+	"rockrockrockrockrockrockrockrockrockrockrockrockrockrockrockrock",
+	"professorSnape@gmail.com",
+	"aherihyh3230u4204082-0903902ty8hwgherghwihefiufhikhsoihg049-058309uoiejgslhgoidhslvkbklsdjlsjfghel;kshg;knkhdkfn",
+	"DwayneTheRockJohnson"
+);
+//insert($rock);
+
+var_dump($rock);
