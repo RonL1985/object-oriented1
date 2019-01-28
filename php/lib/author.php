@@ -15,7 +15,7 @@ $author = new authorAvatarUrl(generateUuidV4(), "http://www.fakethings.com/", "h
 $author->insert($pdo);
 echo "first author";
 
-$author = new authorActivationToken(generateUuidV4(), "worldWideWeb", "Internet");
+$author = new authorActivationToken(generateUuidV4(), "worldWideWeb", "internet");
 $author->insert($pdo);
 echo "second author";
 
