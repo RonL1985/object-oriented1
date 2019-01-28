@@ -29,12 +29,22 @@ class author {
 	 * @var string $authorEmail
 	 **/
 	private $authorEmail;
+	/** Username of this author/username
+	 * @var string $authorUsername
+	 **/
+	private $authorUsername;
+	/**
+	 * Username linked to this author,
+	 * @var string $authorUsername
+	 **/
+	private $authorUsername;
 
 	/**
 	 * @param Uuid $newauthorId
 	 * @param $newAuthorAvatarUrl
 	 * @param $newAuthorActivationToken
 	 * @param $newAuthorEmail
+	 * @param $authorUsername
 	 * @throws InvalidArgumentException
 	 * @throws RangeException
 	 * @throws Exception
@@ -47,6 +57,7 @@ class author {
 			$this->setAuthorAvatarUrl($newAuthorAvatarUrl);
 			$this->setAuthorActivationToken($newAuthorActivationToken);
 			$this->setAuthorEmail($newAuthorEmail);
+			$this->setAuthorUsername($newAuthorUsername)
 
 		} catch(\InvalidArgumentException | \RangeException | \Exception | \TypeError $exception) {
 			$exceptionType = get_class($exception);
