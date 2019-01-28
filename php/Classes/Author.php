@@ -110,3 +110,81 @@ class author {
 		// convert and store the author id
 		$this-> authorAvatarUrl = $string;
 	}
+
+	/**
+	 * accessor method for author ActivationToken
+	 *
+	 * @return string value of author ActivationToken
+	 **/
+	public function getAuthorActivationToken() : string {
+		return($this->authorActivationToken);
+	}
+	/**
+	 * mutator method for author ActivationToken
+	 *
+	 * @param string | string $newAuthorActivationToken new value of author ActivationToken
+	 * @throws \ InvalidArgumentException if $newAuthorActivationToken is not a string or insecure
+	 * @throws \TypeError if @newAuthorActivationToken is not an string
+	 **/
+	public function setAuthorActivationToken( $newAuthorActivationToken) : void {
+		try {
+			$string = self::validateString($newAuthorActivationToken);
+		} catch(\InvalidArgumentException | \Exception | \TypeError $exception) {
+			$exceptionType = get_class($exception);
+			throw(new $exceptionType($exception->getMessage(),0,$exception));
+		}
+		// convert and store the author id
+		$this-> authorActivationToken = $string;
+	}
+
+	/**
+	 * accessor method for author Email
+	 *
+	 * @return string value of author Email
+	 **/
+	public function getAuthorEmail() : string {
+		return($this->authorEmail);
+	}
+	/**
+	 * mutator method for author Email
+	 *
+	 * @param string | string $newAuthorEmail new value of author Email
+	 * @throws \ InvalidArgumentException if $newAuthorEmail is not a string or insecure
+	 * @throws \TypeError if @newAuthorEmail is not an string
+	 **/
+	public function setAuthorEmail( $newAuthorEmail) : void {
+		try {
+			$string = self::validateString($newAuthorEmail);
+		} catch(\InvalidArgumentException | \Exception | \TypeError $exception) {
+			$exceptionType = get_class($exception);
+			throw(new $exceptionType($exception->getMessage(),0,$exception));
+		}
+		// convert and store the author id
+		$this-> authorEmail = $string;
+	}
+
+	/**
+	 * accessor method for author Username
+	 *
+	 * @return string value of author Username
+	 **/
+	public function getAuthorUsername() : string {
+		return($this->authorUsername);
+	}
+	/**
+	 * mutator method for author Username
+	 *
+	 * @param string | string $newAuthorUsername new value of author Username
+	 * @throws \ InvalidArgumentException if $newAuthorUsername is not a string or insecure
+	 * @throws \TypeError if @newAuthorUsername is not an string
+	 **/
+	public function setAuthorUsername( $newAuthorUsername) : void {
+		try {
+			$string = self::validateString($newAuthorUsername);
+		} catch(\InvalidArgumentException | \Exception | \TypeError $exception) {
+			$exceptionType = get_class($exception);
+			throw(new $exceptionType($exception->getMessage(),0,$exception));
+		}
+		// convert and store the author id
+		$this-> authorUsername = $string;
+	}
