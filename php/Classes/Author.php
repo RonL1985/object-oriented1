@@ -35,7 +35,6 @@ class author {
 	private $authorUsername;
 	/**
 
-
 	/**
 	 * @param Uuid $newauthorId
 	 * @param $newAuthorAvatarUrl
