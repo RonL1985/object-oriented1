@@ -15,14 +15,14 @@ $author = new authorAvatarUrl(generateUuidV4(), "http://www.fakethings.com/", "h
 $author->insert($pdo);
 echo "first author";
 
-$author = new authorActivationToken(generateUuidV4(), "http://worldWideWeb", "http://On Desk Top Computer/");
+$author = new authorActivationToken(generateUuidV4(), "worldWideWeb", "On Desk Top Computer");
 $author->insert($pdo);
 echo "second author";
 
-$author = new authorEmail(generateUuidV4(), "http://ronaldluna1@/", "http://gmail.com/");
+$author = new authorEmail(generateUuidV4(), "http://ronaldluna1@/", "gmail.com");
 $author->insert($pdo);
 echo "third author";
 
-$author = new authorUsername(generateUuidV4(), "http://RonL1985/", "http://github.com/");
+$author = new authorUsername(generateUuidV4(), "http://RonL1985", "github.com");
 $author->insert($pdo);
 echo "fourth author";
