@@ -19,7 +19,7 @@ $author = new authorActivationToken(generateUuidV4(), "worldWideWeb", "On Desk T
 $author->insert($pdo);
 echo "second author";
 
-$author = new authorEmail(generateUuidV4(), "ronaldluna1@/", "gmail.com");
+$author = new authorEmail(generateUuidV4(), "ronaldluna1@gmail.com/", "google.com");
 $author->insert($pdo);
 echo "third author";
 
