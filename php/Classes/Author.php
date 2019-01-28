@@ -5,9 +5,9 @@
 /**
  * Small Cross Section of a author
  *
- * This author can be considered a small example of what services like GameStop store when author are used in GameStop. This can easily be extended to emulate more feature of GameStop.
+ * This author can be considered a small example of object oriented phase 1 assigment. when author are used in object oriented. This can easily be extended to emulate more feature of object oriented.
  *
- * @author Chelsea David <cryan17@cnm.edu
+ * @author Ronald Luna <ronaldluna1@gmail.com
  * @version 1
  **/
 class author {
