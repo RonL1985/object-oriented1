@@ -46,7 +46,7 @@ class author {
 	 * @throws TypeError
 	 **/
 
-	public function _construct(string $newAuthorId,string $newAuthorAvatarUrl, string $newAuthorActivationToken ,string $newAuthorEmail $newAuthorUsername ,string) {
+	public function _construct(string $newAuthorId,string $newAuthorAvatarUrl, string $newAuthorActivationToken, string $newAuthorEmail, string $newAuthorUsername) {
 		try {
 			$this->setauthorId($newAuthorId);
 			$this->setAuthorAvatarUrl($newAuthorAvatarUrl);
